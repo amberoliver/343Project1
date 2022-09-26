@@ -1,0 +1,9 @@
+#navProjects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navProjects a:link {
+    text-decoration: none;
+}
