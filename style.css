@@ -7,3 +7,41 @@
 #navProjects a:link {
     text-decoration: none;
 }
+
+footer {
+    position: fixed;
+    width: 100%;
+    background-color: brown;
+    color: antiquewhite;
+    vertical-align: middle;
+    text-align: right;
+    left: 0;
+    bottom: 0;
+    display: flex;
+}
+
+footer ul {
+    position: relative;
+    display: inline-flex;
+    /* padding-left: 6vw; */
+    left: -2vw;
+}
+footer li {
+    /* display: block;
+    flex: 0 1 auto; */
+    padding-left: 1vw;
+    list-style-type: none;
+}
+
+footer img {
+    width: 30px;
+    filter: brightness(0) invert(1);
+}
+
+#logo {
+    position: relative;
+    display: block;
+    float: right;
+    top: 3vh;
+    right: 3vh;
+}
