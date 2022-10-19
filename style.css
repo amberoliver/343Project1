@@ -35,3 +35,11 @@ footer img {
     padding-right: 1vw;
     padding-top: 5vh;
 }
+
+form .name {
+    width: 20%;
+}
+
+form #email {
+    width: 40%;
+}
