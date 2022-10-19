@@ -1,13 +1,3 @@
-#navProjects {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#navProjects a:link {
-    text-decoration: none;
-}
-
 footer {
     position: fixed;
     width: 100%;
@@ -24,7 +14,7 @@ footer ul {
     position: relative;
     display: inline-flex;
     /* padding-left: 6vw; */
-    left: -2vw;
+    left: -1vw;
 }
 footer li {
     /* display: block;
@@ -40,8 +30,8 @@ footer img {
 
 #logo {
     position: relative;
-    display: block;
+    display: inline-flex;
     float: right;
-    top: 3vh;
-    right: 3vh;
+    padding-right: 1vw;
+    padding-top: 5vh;
 }
