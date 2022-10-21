@@ -1,32 +1,21 @@
-.root{
-    --grey: #424242;
-}
-
 header img{
     display: block;
     width: 100vw;
     height: 25vh;
     object-fit: cover;
+    padding-bottom: 20px;
 }
 
 section ul {
     font-family: Arial; font-size: 20px;
-    border-top: 2px solid var(--grey, #424242);
-    color: var(--grey, #424242);
-    margin: 0 clamp(5%, 10%, 20%);
     align-items: center;
+    margin: 0 clamp(5%, 10%, 20%);
+}
+
+nav ul{
+    padding: 0;
 }
 
 section li {
     padding: 15px 0px;
-}
-
-/* body  {
-    background-color:rgba(128,128,128,0.2);
-} */
-
-h2 {
-    font-family: 'Amatic SC';font-size: 40px;
-    text-align: center;
-    color: var(--grey, #424242);
 }

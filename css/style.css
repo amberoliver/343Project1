@@ -1,5 +1,10 @@
+:root{
+    --grey: #636363;
+}
+
 body {
     margin: 0;
+    color: var(--grey);
 }
 
 nav ul {
@@ -28,10 +33,6 @@ nav li a:hover {
     color: white;
 }
 
-nav ul.aboutUs{
-    padding: 0;
-}
-
 .container {
     position: relative;
     text-align: center;
@@ -51,6 +52,15 @@ header h1 {
     transform: translate(-50%, -50%);
 }
 
+h2 {
+    font-family: 'Amatic SC'; font-size: 40px;
+    color: #636363;
+    text-align: center;
+    border-bottom: 2px solid var(--grey);
+    border-width: 10%;
+    margin: 0 clamp(5%, 10%, 20%);
+}
+
 .row {
     display: flex;
 }
@@ -65,24 +75,6 @@ header h1 {
     .column h2 {
         padding-left: 25%;
     }
-}
-
-section.aboutUs li {
-    background-color: rgba(165, 42, 42, 0.7);
-    color: aliceblue;
-    margin: 0 clamp(5%, 15%, 25%);
-    /* text-align: center; */
-    align-items: center;
-    list-style: none;
-    padding: 15px 0px;
-}
-
-#coreValues  {
-    text-align: center;
-}
-
-body.aboutUs {
-    background-color:rgba(128,128,128,0.2);
 }
 
 section {
