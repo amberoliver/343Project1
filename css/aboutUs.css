@@ -3,7 +3,7 @@ header img{
     width: 100vw;
     height: 25vh;
     object-fit: cover;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 section ul {
@@ -16,6 +16,14 @@ nav ul{
     padding: 0;
 }
 
+section {
+    padding-top: none;
+}
+
 section li {
     padding: 15px 0px;
+}
+
+h2 {
+    border-bottom: 2px solid var(--grey);
 }

@@ -1,0 +1,65 @@
+h2 {
+    border-bottom: 2px solid var(--grey);
+}
+
+.form{
+	max-width: 550px;
+	padding: 20px;
+	font-family: sans-serif;
+}
+
+@media (min-width: 1000px) {
+    .form {
+        padding-left: 145px;
+    }
+}
+
+.heading{
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+.form label{
+	display: block;
+	margin: 0px 0px 15px;
+}
+
+.form label > span{
+	width: 100px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+
+.form input.info-input, 
+.form #message {
+	border: 1px solid #a7a5a5;
+	box-shadow: 1px 1px 4px #d9d8d8;
+	border-radius: 3px;
+	padding: 7px;
+}
+
+.form input[type=button]{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	background: #504f4d;
+	color: #ffff;
+	border-radius: 3px;
+}
+
+.form input[type=button]:hover{
+	background: brown;
+	color: #fff;
+}
+
+.form #message{
+	height:100px;
+	width: 55%;
+}
+
+footer {
+    position: absolute;
+}

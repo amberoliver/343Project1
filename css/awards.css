@@ -3,8 +3,9 @@ h2 {
 }
 
 h3 {
-    font-family: 'Arial'; font-size: 30px;
-    padding: 15px;
+    font-size: 30px;
+    padding: 5px;
+    font-family: sans-serif;
 }
 
 section img{
@@ -18,16 +19,21 @@ section img{
 }
 
 div.awardsCard {
-    background-color: #eeeeee;
-    border: 2px solid var(--grey);
-    /* margin: 0 10% 0 30%; */
     width: 60%;
     right: 30%;
     margin: 25px 19%;
-    box-shadow: 5px 5px 5px black;
+    border: 1px solid rgb(81, 121, 147);
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
 }
 
 p {
     font-family: 'Arial'; font-size: 24px;
     padding: 15px;
+}
+
+h2 {
+    border-bottom: 2px solid var(--grey);
 }

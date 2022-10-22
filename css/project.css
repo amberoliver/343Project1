@@ -1,6 +1,7 @@
 h2 {
     margin-top: 20px;
     border-top: 2px solid var(--grey);
+    border-bottom: 2px solid var(--grey);
     text-align: left;
     padding-left: 15px;
     text-transform: uppercase;
@@ -12,7 +13,28 @@ h3 {
     text-align: center;
 }
 
+h3 a {
+    text-decoration: none;
+    color: rgb(104, 103, 103)
+}
+
 section div {
     margin: 0 10% 0 30%;
     font-family: 'Arial'; font-size: 20px;
 }
+
+.projectsSections img {
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+@media (min-width: 1200px){
+    .projectsSections img {
+        padding-left: 150px;
+    }
+}
+

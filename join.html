@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join the Team - Sea Advocates</title>
     <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/join.css"> 
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
 </head>
 
@@ -21,22 +22,16 @@
       </ul>
   </nav>
 
-<form>
   <h2>Join the Team</h2>
-    <div class="mb-5 name">
-      <label class="form-label">First Name</label>
-      <input type="name" class="form-control">
-    </div>
-    <div class="mb-5 name">
-      <label class="form-label">Last Name</label>
-      <input type="name" class="form-control">
-    </div>
-    <div class="mb-5" id="email">
-      <label class="form-label">Email</label>
-      <input type="email" class="form-control">
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+  <div class="form">
+    <div class="heading">Provide your information</div>
+    <form>
+    <label class="input-container"><span>Name</span><input type="text" class="info-input"/></label>
+    <label data-error="Invalid"><span>Email</span><input type="text" class="info-input"/></label>
+    <label data-error="Invalid"><span>Message</span><input id="message"></input></label>
+    <label><span> </span><input type="button" value="Submit" /></label>
+    </form>
+  </div>
   
 <footer>
     <!-- <h4>Socials</h4> -->
